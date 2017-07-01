@@ -87,6 +87,35 @@ To use the table-form markup, ensure that you do the following:
 
 
 
+How to handle errors?
+=======================
+
+In terms of markup, just add another tr with class error below the erroneous tr, like this for instance:
+
+
+```html
+ <!-- ... -->
+ <tr>
+    <td>
+        <label>Title</label>
+    </td>
+    <td>
+        <input type="text" name="title" value="">
+    </td>
+</tr>
+<tr class="error hidden">
+    <td></td>
+    <td>This field is required</td>
+</tr>
+<!-- ... -->
+```
+
+
+The OnTheFlyForm planet (see related section) has a js script that helps you with validating your controls.
+
+
+
+
 Related
 ===========
 - https://github.com/lingtalfi/OnTheFlyForm
