@@ -75,6 +75,21 @@ Adapt to your needs.
 ```
 
 
+To use the table-form markup, ensure that you do the following:
+
+- .table-form on the form
+- .table-form-title h3 if you need a title
+- table with only two columns for the main content, no particular markup
+- .table-form-bottom with buttons inside for the bottom buttons, you can use two built-in classes:
+    - .cancel-btn, create a grayish button 
+    - .submit-btn, create a greenish button (of course you can change the color if you want)
+
+
+
+
+
+
+
 History Log
 ------------------ 
     
