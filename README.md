@@ -126,6 +126,10 @@ Related
 History Log
 ------------------ 
     
+- 1.1.0 -- 2017-07-24
+
+    - add error class
+    
 - 1.0.0 -- 2017-04-04
 
     - initial commit
