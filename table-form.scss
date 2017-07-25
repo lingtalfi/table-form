@@ -31,15 +31,18 @@
     }
   }
 
-
-  .off-success-message{
+  .off-success-message {
     color: green;
   }
 
-  .off-error-message{
+  .off-error-message {
     color: red;
   }
 
+  .off-success-message-container,
+  .off-error-message-container {
+    display: none;
+  }
 
   table {
     width: 100%;

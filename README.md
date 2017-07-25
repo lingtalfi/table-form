@@ -126,6 +126,10 @@ Related
 History Log
 ------------------ 
     
+- 1.3.0 -- 2017-07-25
+
+    - add off-success-message-container and off-error-message-container classes
+
 - 1.2.0 -- 2017-07-25
 
     - add off-success-message and off-error-message classes
