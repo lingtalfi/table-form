@@ -126,6 +126,10 @@ Related
 History Log
 ------------------ 
     
+- 1.2.0 -- 2017-07-25
+
+    - add off-success-message and off-error-message classes
+
 - 1.1.0 -- 2017-07-24
 
     - add error class

@@ -31,8 +31,27 @@
     }
   }
 
+
+  .off-success-message{
+    color: green;
+  }
+
+  .off-error-message{
+    color: red;
+  }
+
+
   table {
     width: 100%;
+
+    .error {
+      color: #ee001c;
+      font-weight: normal;
+    }
+
+    .hidden {
+      display: none;
+    }
 
     tr {
 
@@ -70,11 +89,7 @@
           padding-left: 10px;
         }
       }
-      &.error {
-        color: #ee001c;
-        font-weight: normal;
 
-      }
     }
   }
 
